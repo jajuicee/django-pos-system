@@ -1,7 +1,7 @@
 from django import forms
 from django.contrib.auth.models import User
 from django.contrib.auth.forms import UserCreationForm
-from .models import Profile, Product, Transaction, TransactionItem
+from .models import Profile, Product, Transaction, TransactionItem # type: ignore
 
 
 class UserRegisterForm(UserCreationForm):
